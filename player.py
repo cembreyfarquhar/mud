@@ -18,7 +18,7 @@ class Player:
 
     def get_stats(self, stat='all'):
         switcher = {
-            'all': [self.health, self.strength, self.luck],
+            'all': [f'Health: {self.health}, Strength: {self.strength}, Luck: {self.luck}'],
             'health': self.health,
             'strength': self.strength,
             'luck': self.luck
